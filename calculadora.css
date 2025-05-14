@@ -1,0 +1,61 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(151, 147, 147);
+}
+input{
+    height: 50px;
+    width: 345px;
+    border-radius: 10px;
+    font-size: 30px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+    border-color: rgb(16, 7, 124);
+    text-align: right;
+    font-family: fantasy;
+}
+
+
+button{
+    width: 85px;
+    padding: 22px;
+    font-size: 25px;
+    border-radius: 8px;
+    background: rgb(35, 34, 34);
+    color: white;
+    border-color: rgb(251, 251, 252);
+
+}
+button:hover{
+    background: black;
+}
+
+section{
+    border: 8px solid rgb(85, 204, 247);
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px 16px black;
+}
+.bt-red{
+    background: rgb(246, 94, 94);
+    
+}
+
+
+.bt-red:hover{
+    background: rgb(251, 31, 31);
+}
+
+.bt-blue{
+    background: rgba(29, 92, 202, 0.94);
+}
+.bt-blue:hover{
+    background: rgba(0, 0, 255, 0.689);
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}

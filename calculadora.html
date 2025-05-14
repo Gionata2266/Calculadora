@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/5 calculadora/calculadora.css">
+</head>
+
+<body>
+
+    <section>
+
+        <div class="input">
+            <input type="text" id="input">
+        </div>
+
+        <div>
+            <button onclick="recebe('acao','%')">%</button>
+            <button onclick="recebe('acao','-')">-</button>
+            <button onclick="recebe('acao','c')">C</button>
+            <button class="bt-red" onclick="recebe('acao','c')"><img
+                    src="/5 calculadora/img/backspace_24dp_1F1F1F_FILL0_wght400_GRAD0_opsz24.png" style="height: 25px;"
+                    alt="" srcset=""></button>
+        </div>
+
+        <div>
+            <button onclick="recebe('numero',7)" id="um">7</button>
+            <button onclick="recebe('numero',8)">8</button>
+            <button onclick="recebe('numero',9)">9</button>
+            <button onclick="recebe('acao','/')">/</button>
+        </div>
+
+        <div>
+            <button onclick="recebe('numero',4)">4</button>
+            <button onclick="recebe('numero',5)">5</button>
+            <button onclick="recebe('numero',6)">6</button>
+            <button onclick="recebe('acao','*')">*</button>
+        </div>
+
+        <div>
+            <button onclick="recebe('numero',1)">1</button>
+            <button onclick="recebe('numero',2)">2</button>
+            <button onclick="recebe('numero',3)">3</button>
+            <button onclick="recebe('acao','+')">+</button>
+        </div>
+
+        <div>
+            <button onclick="recebe('acao','.')">.</button>
+            <button onclick="recebe('numero',0)">0</button>
+            <button onclick="recebe('acao','.')">,</button>
+            <button onclick="recebe('acao','=')" class="bt-blue">=</button>
+        </div>
+        <footer>
+
+            &copy;Gionata Disconzi
+
+        </footer>
+    </section>
+
+
+    <script src="/5 calculadora/calculadora2.js"></script>
+</body>
+
+</html>
